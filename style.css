@@ -1,0 +1,283 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+  padding: 10px;
+  margin: 10px;
+}
+
+.header-site {
+  margin: 0;
+  border-bottom: 1px solid #0283f5;
+}
+
+.header__navbar--menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.header__navbar--menu > li {
+  margin: 10px;
+  padding: 5px 0px;
+}
+
+.navbar__menu--item:hover {
+  border-bottom: 1px solid rgb(13, 0, 128);
+}
+
+.header-navbar {
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.get-started-btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  background-color: #0082f4;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  margin-left: 5%;
+}
+
+.hero__content--main {
+    max-width: 300px;
+}
+
+.hero__content--head {
+  color: #0080fd;
+  font-weight: 400;  
+}
+
+.hero_content--desc {
+  opacity: 0.8;
+  max-width: 400px;
+  
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-play-video {
+  border-radius: 10px;
+  border: 0.5px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 120px;
+}
+
+.hero-image {
+    margin-top: 40px;
+}
+
+.about-us {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+.about-us_img {
+  width: 400px;
+}
+
+.about-us_word {
+  color: #0080fd;
+  font-weight: 400px;
+}
+
+.about-us_text {
+  max-width: 350px;
+  align-items: center;
+}
+
+.about-us_desc {
+  margin-bottom: 5%;
+}
+
+.how-work {
+  padding: 20px;
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.first {
+  margin-top: 30px;
+  max-width: 220px;
+}
+
+.second {
+    margin-top: 30px;  
+  max-width: 220px;
+}
+
+.third {
+    margin-top: 30px;
+  max-width: 220px;
+}
+
+.customer-bla {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.testimonial {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: #fff;
+}
+.testimonial::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background: #007BFF;
+    border-radius: 10px 0 0 10px;
+}
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 3px solid white;
+}
+.testimonial-text {
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
+.name {
+    font-weight: bold;
+}
+.role {
+    color: gray;
+    font-size: 14px;
+}
+
+.newsletter {
+  text-align: center;
+  padding: 30px;
+  background-color: #E8ECFF4D;
+}
+
+.newsletter h2 {
+  color: #058aff;
+  margin-bottom: 5px;
+}
+
+.email-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.email-box input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.email-box button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: rgb(247, 244, 244);
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  text-align: center;
+}
+
+.column h3 {
+    margin-left: 40px;
+}
+
+.column > ul {
+  list-style-type: none;
+  line-height: 1.8;
+}
+
+.column > li {
+  margin: 5px 0;
+  margin-bottom: 10px;
+}
+
+.last {
+    background-color: #058AFF;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.last-desc {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.social-icons {
+    margin: 10px;
+}
+
+.last-btn {
+    width: 131px;
+    height: 52px;
+    border-radius: 10px;
+    border: 0px solid white;
+    color: #0171d2;
+    font-size: 20px;
+}
